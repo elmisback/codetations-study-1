@@ -1,3 +1,6 @@
+AUTH FAILURE:
+If the api key is invalid, the request will fail with a 401 Unauthorized response.
+
 ERROR CODES:
 authentication_required: Redirect customer to 3D Secure
 card_declined: Generic decline
