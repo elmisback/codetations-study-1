@@ -1,6 +1,6 @@
 class PaymentProcessor {
     async processPayment(paymentDetails) {
-        const apiKey = this.getApiKey('test');
+        const apiKey = this.getApiKey();
         const response = await fetch('https://api.payment.com/v1/charge', {
             method: 'POST',
             headers: {
