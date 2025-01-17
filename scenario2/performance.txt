@@ -1,0 +1,10 @@
+BENCHMARK RESULTS:
+Array Size: 1000
+- Best case: 0.5ms
+- Average case: 1.2ms
+- Worst case: 4.8ms
+
+Array Size: 10000
+- Best case: 6.2ms
+- Average case: 15.8ms
+- Worst case: 82.3ms

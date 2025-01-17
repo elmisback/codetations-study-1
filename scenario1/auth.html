@@ -1,0 +1,10 @@
+<div class="api-doc">
+    <h3>Payment API Authentication</h3>
+    <p>API keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>
+    <pre>
+      curl -X POST https://api.payment.com/v1/charge \
+        -H "Authorization: Bearer YOUR_API_KEY" \
+        -H "Content-Type: application/json" \
+        -d '{"amount": 2000, "currency": "usd"}'
+    </pre>
+</div>

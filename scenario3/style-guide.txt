@@ -1,0 +1,17 @@
+COLOR SCHEME:
+- Primary: #1a73e8
+- Error: #d93025
+- Success: #188038
+- Border: #dadce0
+- Text: #202124
+- Label: #5f6368
+
+SPACING:
+- Input padding: 8px 12px
+- Label margin: 0 0 4px
+- Error margin: 4px 0 0
+
+TYPOGRAPHY:
+- Label: 14px, 500 weight
+- Input: 16px
+- Error: 12px

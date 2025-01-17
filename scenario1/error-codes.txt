@@ -1,0 +1,7 @@
+ERROR CODES:
+authentication_required: Redirect customer to 3D Secure
+card_declined: Generic decline
+insufficient_funds: Customer's card lacks sufficient funds
+expired_card: Card is expired
+invalid_expiry_month: Invalid expiration month
+invalid_expiry_year: Invalid expiration year
