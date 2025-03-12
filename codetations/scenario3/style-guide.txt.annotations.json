@@ -1,1 +1,19 @@
-{"annotations":[{"id":"0","start":25,"end":32,"document":"COLOR SCHEME:\n- Primary: #1a73e8\n- Error: #d93025\n- Success: #188038\n- Border: #dadce0\n- Text: #202124\n- Label: #5f6368\n\nSPACING:\n- Input padding: 8px 12px\n- Label margin: 0 0 4px\n- Error margin: 4px 0 0\n\nTYPOGRAPHY:\n- Label: 14px, 500 weight\n- Input: 16px\n- Error: 12px","tool":"colorPicker","metadata":{},"original":{"document":"COLOR SCHEME:\n- Primary: #1a73e8\n- Error: #d93025\n- Success: #188038\n- Border: #dadce0\n- Text: #202124\n- Label: #5f6368\n\nSPACING:\n- Input padding: 8px 12px\n- Label margin: 0 0 4px\n- Error margin: 4px 0 0\n\nTYPOGRAPHY:\n- Label: 14px, 500 weight\n- Input: 16px\n- Error: 12px","start":25,"end":32}}]}
+{
+  "annotations": [
+    {
+      "id": "1741778861222",
+      "start": 25,
+      "end": 32,
+      "document": "COLOR SCHEME:\n- Primary: #1a73e8\n- Error: #d93025\n- Success: #188038\n- Border: #dadce0\n- Text: #202124\n- Label: #5f6368\n\nSPACING:\n- Input padding: 8px 12px\n- Label margin: 0 0 4px\n- Error margin: 4px 0 0\n\nTYPOGRAPHY:\n- Label: 14px, 500 weight\n- Input: 16px\n- Error: 12px",
+      "tool": "colorPicker",
+      "metadata": {
+        "color": "rgba(188, 189, 34, 0.3)"
+      },
+      "original": {
+        "document": "COLOR SCHEME:\n- Primary: #566a86\n- Error: #d93025\n- Success: #188038\n- Border: #dadce0\n- Text: #202124\n- Label: #5f6368\n\nSPACING:\n- Input padding: 8px 12px\n- Label margin: 0 0 4px\n- Error margin: 4px 0 0\n\nTYPOGRAPHY:\n- Label: 14px, 500 weight\n- Input: 16px\n- Error: 12px",
+        "start": 25,
+        "end": 32
+      }
+    }
+  ]
+}

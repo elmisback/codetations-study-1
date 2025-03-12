@@ -1,0 +1,38 @@
+{
+  "annotations": [
+    {
+      "id": "1741778904170",
+      "start": 285,
+      "end": 339,
+      "document": "// Basic usage\nconst basicProps = {\n    label: \"Username\",\n    value: \"\",\n    onChange: (value) => console.log(value)\n  };\n  \n  // With validation\n  const emailProps = {\n    label: \"Email\",\n    value: \"\",\n    onChange: (value) => console.log(value),\n    validation: (value) => {\n      const emailFormatRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n      return emailFormatRegex.test(value) ? null : { error: 'Invalid email' };\n    }\n  };\n  \n  // With complex validation\n  const passwordProps = {\n    label: \"Password\",\n    value: \"\",\n    onChange: (value) => console.log(value),\n    validation: (value) => {\n      const errors = [];\n      if (value.length < 8) errors.push('Too short');\n      if (!/[A-Z]/.test(value)) errors.push('Need uppercase');\n      if (!/[0-9]/.test(value)) errors.push('Need number');\n      return errors.length ? { error: errors.join(', ') } : null;\n    }\n  };",
+      "tool": "debugExample",
+      "metadata": {
+        "color": "rgba(188, 189, 34, 0.3)",
+        "debugCode": "// Complete, executable debugging example\n\n// Basic usage\nconst basicProps = {\n    label: \"Username\",\n    value: \"\",\n    onChange: (value) => console.log(value)\n};\n\n// With validation\nconst emailProps = {\n    label: \"Email\",\n    value: \"\",\n    onChange: (value) => console.log(value),\n    validation: (value) => {\n        // Highlighted code\n        const emailFormatRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n        // Debugging statement to show the regex\n        console.log('Email Regex:', emailFormatRegex);\n        // Test the value against the regex\n        const isValid = emailFormatRegex.test(value);\n        // Debugging statement to show the test result\n        console.log('Is valid email:', isValid);\n        return isValid ? null : { error: 'Invalid email' };\n    }\n};\n\n// Test the email validation\nconst testEmail = (email) => {\n    console.log(`Testing email: ${email}`);\n    const result = emailProps.validation(email);\n    console.log('Validation result:', result);\n};\n\n// Run tests\nconsole.log('Running email validation tests...');\ntestEmail('test@example.com'); // Valid email\nconsole.log('---');\ntestEmail('invalid-email'); // Invalid email\n",
+        "explanation": "This debugging code demonstrates the validation of email addresses using a regular expression. It includes console.log statements to show the regex pattern and the validation results for different test cases.",
+        "executionResult": {
+          "success": true,
+          "logs": [
+            "Running email validation tests...",
+            "Testing email: test@example.com",
+            "Email Regex: {}",
+            "Is valid email: true",
+            "Validation result: null",
+            "---",
+            "Testing email: invalid-email",
+            "Email Regex: {}",
+            "Is valid email: false",
+            "Validation result: {\"error\":\"Invalid email\"}"
+          ],
+          "error": null
+        },
+        "debugPrompt": "Include a valid test"
+      },
+      "original": {
+        "document": "// Basic usage\nconst basicProps = {\n    label: \"Username\",\n    value: \"\",\n    onChange: (value) => console.log(value)\n  };\n  \n  // With validation\n  const emailProps = {\n    label: \"Email\",\n    value: \"\",\n    onChange: (value) => console.log(value),\n    validation: (value) => {\n      const emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n      return emailRegex.test(value) ? null : { error: 'Invalid email' };\n    }\n  };\n  \n  // With complex validation\n  const passwordProps = {\n    label: \"Password\",\n    value: \"\",\n    onChange: (value) => console.log(value),\n    validation: (value) => {\n      const errors = [];\n      if (value.length < 8) errors.push('Too short');\n      if (!/[A-Z]/.test(value)) errors.push('Need uppercase');\n      if (!/[0-9]/.test(value)) errors.push('Need number');\n      return errors.length ? { error: errors.join(', ') } : null;\n    }\n  };",
+        "start": 285,
+        "end": 333
+      }
+    }
+  ]
+}

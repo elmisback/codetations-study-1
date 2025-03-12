@@ -1,1 +1,50 @@
-{"annotations":[{"id":"0","start":16,"end":29,"document":"<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>","tool":"comment","metadata":{},"original":{"document":"<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>","start":16,"end":29}},{"id":"1","start":33,"end":438,"document":"<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>","tool":"displayHTML","metadata":{},"original":{"document":"<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>","start":33,"end":438}},{"id":"2","start":215,"end":431,"document":"<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>","tool":"displayHTML","metadata":{},"original":{"document":"<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>","start":215,"end":431}}]}
+{
+  "annotations": [
+    {
+      "id": "1741198138817",
+      "start": 16,
+      "end": 29,
+      "document": "<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>",
+      "tool": "comment",
+      "metadata": {
+        "color": "rgba(188, 189, 34, 0.3)",
+        "comment": ""
+      },
+      "original": {
+        "document": "\n<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API   keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>",
+        "start": 17,
+        "end": 30
+      }
+    },
+    {
+      "id": "1741777041918",
+      "start": 33,
+      "end": 438,
+      "document": "<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>",
+      "tool": "displayHTML",
+      "metadata": {
+        "color": "rgba(31, 119, 180, 0.3)"
+      },
+      "original": {
+        "document": "\n<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API   keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>",
+        "start": 34,
+        "end": 441
+      }
+    },
+    {
+      "id": "1741777050584",
+      "start": 215,
+      "end": 431,
+      "document": "<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>",
+      "tool": "displayHTML",
+      "metadata": {
+        "color": "rgba(255, 127, 14, 0.3)"
+      },
+      "original": {
+        "document": "\n<!--Payment API documentation-->\n<div class=\"api-doc\">\n    <h3>Payment API Authentication</h3>\n    <p>API   keys must be rotated every 90 days. Generate new keys in the dashboard at api.payment.com/dashboard.</p>\n    <pre>\n      curl -X POST https://api.payment.com/v1/charge \\\n        -H \"Authorization: Bearer YOUR_API_KEY\" \\\n        -H \"Content-Type: application/json\" \\\n        -d '{\"amount\": 2000, \"currency\": \"usd\"}'\n    </pre>\n</div>",
+        "start": 218,
+        "end": 434
+      }
+    }
+  ]
+}

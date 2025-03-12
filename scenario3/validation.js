@@ -11,8 +11,8 @@ const basicProps = {
     value: "",
     onChange: (value) => console.log(value),
     validation: (value) => {
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      return emailRegex.test(value) ? null : { error: 'Invalid email' };
+      const emailFormatRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailFormatRegex.test(value) ? null : { error: 'Invalid email' };
     }
   };
   
